@@ -1,0 +1,132 @@
+.ab{
+    width: 300px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.oo{
+    position: relative;
+    width: 40%;
+}
+.input{
+    border-style: solid;
+    border-radius: 25px;
+    height: 35px;
+    width: 100%;
+   opacity: 0.5;
+border-color: #dfe1e5;
+}
+.input::placeholder{
+    padding: 5%;
+}
+.mic{
+    position: absolute;
+    right: 2%;
+    top: 16%;
+   
+}
+.icon{
+    position: absolute;
+    top: 35%;
+    right: 93%;
+}
+.input:hover{
+    box-shadow:2px 2px 2px 2px gray;
+}
+#menu-item{
+    text-decoration: none;
+    padding: 8px;
+    position: relative;
+    top: -12px;
+    color: gray;
+    font-weight: bold;
+
+}
+.qq{
+    padding: 35px;
+    
+}
+.lang{
+    text-decoration: none;
+    word-spacing:9px;
+}
+#btn{
+    padding: 6px;
+    margin-top: 35px;
+    margin-right: 9px;
+    border-color: #dfe1e5;
+    background-color: rgba(223, 225, 229,0.2);
+}
+
+#btn:hover{
+    box-shadow:2px 2px 2px 2px gray ;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
+#menu-item:hover{
+    text-decoration: underline;
+}
+.gb_Ve{
+    height: 25px;
+    cursor: pointer;
+    padding: 5px;
+}
+#profil{
+    border-radius: 555px;
+    height: 35px;
+    padding: 5px;
+    position: relative;
+    bottom: -8px;
+    cursor: pointer;
+}
+nav{
+   text-align: right;
+}
+/*#app-dropdown{
+    width: 295px;
+    height: 150px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2) ;
+    position: absolute;
+    top: 7%;
+    right: 11%;
+   display: none;
+}
+
+
+.gb_Ve:hover #app-dropdown
+{
+    display: block;
+}
+#gicon{
+    width: 18%;
+    border-style: solid;
+    border-color: white;
+    
+    cursor: pointer;
+   padding-right: 34px;
+   padding-bottom: 15px;
+    
+}
+#gicon:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+*/
+@media screen and (max-width:720px) {
+
+.oo{
+    width: 70%;
+}
+
+
+    
+}
